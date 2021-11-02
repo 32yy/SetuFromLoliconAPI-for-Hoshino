@@ -19,6 +19,7 @@ _flmt = FreqLimiter(5)
 sv = Service('setu', manage_priv=priv.SUPERUSER, enable_on_default=True, visible=False)
 setu_folder = R.img('lolicon/').path
 
+ # 这是屏蔽词，自行修改
 blacklist_word = ['妊娠', '怀孕', '流产', '人兽', '伪娘', '扶他', 'futa', '扶她', '孕妇',]
 
 def setu_gener():
